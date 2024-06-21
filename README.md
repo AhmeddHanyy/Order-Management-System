@@ -14,7 +14,7 @@ Before getting started, ensure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/AhmeddHanyy/Order-Management-System.git
 cd order-management-system
 ```
 
