@@ -37,13 +37,7 @@ npx prisma migrate dev
 
 This will apply any pending migrations to your database.
 
-(Optional) Seed the database:
 
-If you have seed data defined (`src/prisma/seed.ts`), you can seed the database:
-
-```bash
-npx ts-node src/prisma/seed.ts
-```
 
 ### Starting the Application
 
@@ -84,4 +78,5 @@ To test the APIs, you can use tools like Postman or cURL. Here are the available
 
 - Ensure PostgreSQL is running and accessible.
 - Customize the environment variables and configuration in `src/config` as per your setup.
+- Navigate to http://localhost:3000/api for Swagger Documentation.
 - Refer to the NestJS documentation for more details on project structure and customization options.
